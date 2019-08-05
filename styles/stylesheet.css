@@ -1,0 +1,24 @@
+<style>
+  h2 {
+    color:red;
+  }
+  h4 {
+    color:red;
+    font-style: italic;
+  }
+  p {color:blue;
+
+  }
+  body {
+    color:dodgerblue;
+  }
+  img {
+    border-style: solid;
+    border-color: yellow;
+    border-width: 1px;
+    width: 20%;
+  }
+  a[href="semantic-elements-lesson-1.html"] {
+    background-color: red;
+  }
+</style>
