@@ -6,29 +6,48 @@
     color:red;
     font-style: italic;
   }
-  p {color:blue;
-
+  p  {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
   body {
-    color:dodgerblue;
+    color:white;
     background-color: black;
   }
-  .purple-text {
-    color:purple;
+  .white-text {
+    color:white;
   }
   .important{
     font-weight: bold;
   }
-  img {
-    border-style: solid;
-    border-color: yellow;
-    border-width: 1px;
-    width: 20%;
-  }
-  a[href="semantic-elements-lesson-1.html"] {
+  .important:hover {
     background-color: red;
   }
-  .important {
-    font-weight:bold;
+  img {
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+    width: 20%;
+    height: 350px;
+    width:40%;
+  }
+  a[href="About-me.html"] {
+    padding: .5rem;
+    background-color: dodgerblue;
+  }
+  a[href="semantic-elements-lesson-1.html"] {
+    padding: .5rem;
+    background-color: dodgerblue;
+  }
+  a[href="https://handxwritten.github.io/portfolio/About-me.html"] {
+    padding: .5rem;
+    background-color: dodgerblue;
+  }
+  a[href="#"] {
+    padding: .5rem;
+    background-color: dodgerblue;
   }
 </style>
