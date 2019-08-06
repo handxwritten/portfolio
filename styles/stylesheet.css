@@ -11,6 +11,13 @@
   }
   body {
     color:dodgerblue;
+    background-color: black;
+  }
+  .purple-text {
+    color:purple;
+  }
+  .important{
+    font-weight: bold;
   }
   img {
     border-style: solid;
@@ -20,5 +27,8 @@
   }
   a[href="semantic-elements-lesson-1.html"] {
     background-color: red;
+  }
+  .important {
+    font-weight:bold;
   }
 </style>
