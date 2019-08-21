@@ -1,0 +1,31 @@
+  h1 {
+    color: #4d9a46;
+  }
+  h3 {
+    color: #4d9a46;
+    padding-bottom: auto;
+  }
+  a {
+    color: #4d9a46;
+    transition-property: font-size 40px;
+    transition-duration: 4s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+  }
+  body {
+    color: white;
+    background-color: #443344;
+  }
+  ul {
+    color: #4d9a46;
+    transition-property: font-size 40px;
+    transition-duration: 4s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+    font-size: 150%
+  }
+  footer:hover {
+    color: red;
+    font-size: 150%;
+    font-family: monospace;
+  }
