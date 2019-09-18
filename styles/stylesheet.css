@@ -1,13 +1,17 @@
 
   h2 {
-    color:red;
+    color:blue;
+    font-family: 'Roboto', sans-serif;
+  }
+  h3 {
+    color:blue;
+    font-family: 'Gayathri', sans-serif;
   }
   h4 {
-    color:red;
-    font-style: italic;
+    color: blue;
     font-size: 200%;
     font-family: monospace;
-    color: red;
+    color: blue;
     transition-property: font-size;
     transition-duration: 5s;
     transition-timing-function: ease-in-out;
@@ -20,6 +24,7 @@
     margin-bottom: 30px;
     margin-right: 20px;
     margin-left: 20px;
+    font-family: 'Gayathri', sans-serif;
   }
   body {
     color:white;
@@ -29,27 +34,28 @@
     color:white;
   }
   .a:hover {
-    border: 3px solid red;
+    border: 3px solid blue;
   }
   .important{
     font-weight: bold;
   }
   .important:hover {
-    background-color: red;
+    background-color: blue;
   }
   section:hover {
-    border: 3px solid red;
+    border: 1px solid blue;
   }
-  header:hover {
-      border: 3px solid red;
+  .header:hover {
+      border: 1px solid blue;
+      font-family: 'Roboto', sans-serif;
   }
   figure:hover {
-    border: 3px solid red;
+    border: 1px solid blue;
   }
   img {
     border-style: solid;
     border-color: blue;
-    border-width: 2px;
+    border-width: 1px;
     width: 40%;
     height: 600px;
     width:40%;
@@ -58,8 +64,7 @@
     padding: .1rem;
     font-size: 200%;
     font-family: monospace;
-    color: red;
-    transition-property: font-size;
+    color: blue;
     transition-duration: 5s;
     transition-timing-function: ease-in-out;
     transition-delay: 1s;
@@ -67,23 +72,29 @@
   }
   a[href="semantic-elements-lesson-1.html"] {
     padding: .1rem;
-    background-color: dodgerblue;
+    background-color: black;
   }
   a[href="https://handxwritten.github.io/portfolio/About-me.html"] {
     padding: .1rem;
-    background-color: dodgerblue;
+    background-color: black;
   }
   a[href="#"] {
     padding: .2rem;
-    background-color: dodgerblue;
+
   }
   footer:hover {
       font-size: 200%;
       font-family: monospace;
-      color: red;
+      color: blue;
       transition-property: font-size;
-      transition-duration: 5s;
+      transition-duration: 3s;
       transition-timing-function: ease-in-out;
-      transition-delay: 1s;
+      transition-delay: 0s;
       font-size: 150%
-    }
+  }
+  .box {
+    height: 250px;
+    width: 450px;
+    border: 10px solid blue;
+    background: black;
+  }
