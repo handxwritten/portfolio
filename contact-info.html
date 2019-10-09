@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles/contact-info.css">
+    <link href="https://fonts.googleapis.com/css?family=Gayathri,Roboto&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <h1 class="header">Contact Me</h1>
+    <form method="POST">
+      <label class="p">Please give me a brief description of what we may help you with.
+        <textarea name="applicantReason" rows="4" cols="50"></textarea>
+      </label>
+
+      <label class="p">Your name:
+        <input type="text" name="applicantName">
+      </label>
+
+      <label class="p">Your email:
+        <input type="email" name="applicantEmail">
+      </label>
+
+      <label for="phone" class="p">Enter your preferred phone number: Format: 123-456-7890</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+      <label class="p">Which way would you like to be contacted?
+        <select name="hours">
+            <option value="">Please select</option>
+            <option value="Cellphone">Cell phone</option>
+            <option value="Email">Email</option>
+        </select>
+      </label>
+
+      <fieldset class="checkbox">
+        <legend class="p">How did you hear about us?</legend>
+        <label>
+        <input type="checkbox" name="Info" value="Newspaper">Newspaper
+        <span class="checkmark"></span>
+        </label>
+        <label>
+        <input type="checkbox" name="Info" value="Google">Google
+        <span class="checkmark"></span>
+        </label>
+        <label>
+        <input type="checkbox" name="Info" value="Friend">Friend or family
+        <span class="checkmark"></span>
+        </label>
+        <label>
+        <input type="checkbox" name="Info" value="Other">Other
+        <span class="checkmark"></span>
+        </label>
+      </fieldset>
+
+    <fieldset>
+      <legend class="p">Would you recommend us to a friend?</legend>
+      <label>
+        <input type="radio" name="special" value="yes">Yes
+      </label>
+      <label>
+        <input type="radio" name="special" value="no">No
+      </label>
+    </fieldset>
+
+      <label>
+        <input type="submit" value="Submit">
+      </label>
+    </form>
+  </body>
+</html>
